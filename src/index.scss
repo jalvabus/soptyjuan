@@ -1,0 +1,27 @@
+@import "./scss/index.scss";
+
+.Toastify {
+    .Toastify__toast-container--top-center {
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0px;
+        margin: 0px;
+
+        .Toastify__toast--success {
+            background-color: $background-primary;
+
+            .Toastify__close-button {
+                align-self: center;
+            }
+        }
+
+        .Toastify__toast--error {
+            background-color: $danger;
+
+            .Toastify__close-button {
+                align-self: center;
+            }
+        }
+    }
+}
